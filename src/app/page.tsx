@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import Hero from '@/components/dashboard/hero';
 
 const slides = [
   {
@@ -34,93 +35,11 @@ const slides = [
 ];
 
 export default function Home() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
-
-  useEffect(() => {
-    const timer = setInterval(nextSlide, 5000);
-    return () => clearInterval(timer);
-  }, []);
 
   return (
     <div className="space-y-16">
       {/* Hero Slider */}
-      <div className="relative h-[600px] w-full overflow-hidden">
-        {slides.map((slide, index) => (
-          <div
-            key={slide.id}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentSlide ? 'opacity-100' : 'opacity-0'
-            }`}
-          >
-            <div className="relative h-full w-full">
-              <Image
-                src={slide.image}
-                alt={slide.title}
-                fill
-                className="object-cover"
-                priority
-              />
-              <div className="absolute inset-0 bg-black/20" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center text-white">
-                  <h1 className="text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-                    {slide.title}
-                  </h1>
-                  <p className="mt-4 text-xl">
-                    {slide.description}
-                  </p>
-                  <div className="mt-8">
-                    <Button
-                      asChild
-                      className="bg-white text-gray-900 hover:bg-gray-100"
-                      size="lg"
-                    >
-                      <Link href={slide.buttonLink}>
-                        {slide.buttonText}
-                      </Link>
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
-
-        {/* Navigation Buttons */}
-        <button
-          onClick={prevSlide}
-          className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-2 text-gray-800 hover:bg-white"
-        >
-          <ChevronLeft className="h-6 w-6" />
-        </button>
-        <button
-          onClick={nextSlide}
-          className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-2 text-gray-800 hover:bg-white"
-        >
-          <ChevronRight className="h-6 w-6" />
-        </button>
-
-        {/* Slide Indicators */}
-        <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 space-x-2">
-          {slides.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentSlide(index)}
-              className={`h-2 w-2 rounded-full ${
-                index === currentSlide ? 'bg-white' : 'bg-white/50'
-              }`}
-            />
-          ))}
-        </div>
-      </div>
+      <Hero/>
 
       {/* Featured Categories */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
