@@ -1,6 +1,6 @@
 # E-Commerce Shop
 
-A modern e-commerce website built with Next.js, TypeScript, and Tailwind CSS. This project is inspired by the Preline Shop template and implements a full-featured online shopping experience.
+A modern e-commerce website built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Features
 
