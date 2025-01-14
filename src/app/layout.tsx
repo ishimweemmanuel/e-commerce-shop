@@ -1,5 +1,7 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Navbar from './components/Navbar';
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -27,14 +29,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className={inter.className}>
-        <main className="min-h-screen bg-white dark:bg-neutral-900">
+      <body className={`${inter.className} min-h-screen flex flex-col`}>
+        <Navbar />
+        <main className="flex-grow">
           {children}
         </main>
       </body>
