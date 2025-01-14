@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import './globals.css';
-import ProductCard from './components/ProductCard';
+import ProductCard from '../components/ProductCard';
 import { products } from './data/products';
 
 function App() {

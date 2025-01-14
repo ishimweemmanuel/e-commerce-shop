@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import ProfileSidebar from '../components/ProfileSidebar';
+import ProfileSidebar from '../../components/ProfileSidebar';
 import { Upload } from 'lucide-react';
 
 const defaultProfileImage = "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&h=150&q=80";

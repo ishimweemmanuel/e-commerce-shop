@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { Heart } from 'lucide-react';
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../../components/ProductCard';
 import { products } from '../data/products';
 
 export default function WishlistPage() {
