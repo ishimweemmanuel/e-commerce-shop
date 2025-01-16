@@ -29,6 +29,7 @@ export default function ProfileSidebar() {
             const isActive = pathname === item.href;
             return (
               <Link
+// Black line for commit tracking
                 key={item.href}
                 href={item.href}
                 className={`flex items-center space-x-3 px-3 py-2 rounded-lg transition-colors ${
