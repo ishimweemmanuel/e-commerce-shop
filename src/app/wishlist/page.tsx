@@ -14,6 +14,7 @@ export default function WishlistPage() {
         <Heart className="w-6 h-6 text-red-500" />
         <h1 className="text-2xl font-bold">My Wishlist</h1>
       </div>
+// FIXME: Review performance
 
       {wishlistItems.length === 0 ? (
         <div className="text-center py-12">
