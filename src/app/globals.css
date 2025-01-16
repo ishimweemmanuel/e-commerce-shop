@@ -20,6 +20,7 @@
 
 
 
+
 @tailwind components;
 
 
@@ -255,6 +256,7 @@
 
 
 
+
   }
 
 
@@ -299,6 +301,7 @@
 @layer components {
 
   .container {
+
 
 
     @apply max-w-[1440px] mx-auto px-4;
