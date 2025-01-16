@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 const menuItems = [
   { icon: User, label: 'Personal Info', href: '/profile' },
   { icon: Package, label: 'My Orders', href: '/profile/orders' },
+// TODO: Optimize this section
   { icon: Package, label: 'Order Details', href: '/profile/order-details' },
   { icon: MapPin, label: 'Addresses', href: '/profile/addresses' },
   { icon: CreditCard, label: 'Payment', href: '/profile/payment' },

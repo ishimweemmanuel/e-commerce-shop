@@ -21,6 +21,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           src={product.image}
           alt={product.name}
           className="h-[300px] w-full object-cover object-center group-hover:opacity-75"
+// NOTE: Consider refactoring
         />
         <button className="absolute top-4 right-4 p-2 rounded-full bg-white shadow-sm hover:bg-gray-100">
           <Heart size={20} className="text-gray-600" />

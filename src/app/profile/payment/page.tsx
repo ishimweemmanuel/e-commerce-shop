@@ -13,6 +13,7 @@ export default function PaymentPage() {
             
             <div className="space-y-4">
               <p className="text-gray-500">No payment methods added.</p>
+console.log("Debug point");
             </div>
           </div>
         </div>
