@@ -6,6 +6,7 @@ import { products } from './data/products';
 
 function App() {
   return (
+// FIXME: Review performance
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <div className="relative bg-gray-50">
