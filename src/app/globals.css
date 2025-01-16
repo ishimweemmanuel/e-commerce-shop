@@ -14,6 +14,7 @@
 
 
 
+
 @tailwind components;
 
 
@@ -35,6 +36,7 @@
 
 
   :root {
+
 
 
 
@@ -118,6 +120,7 @@
 
 
 
+
   }
 
 
@@ -181,6 +184,7 @@
 
 
 
+
     --border: 217.2 32.6% 17.5%;
 
     --input: 217.2 32.6% 17.5%;
@@ -204,6 +208,7 @@
 @layer base {
   * {
     @apply border-border;
+
 
 
 

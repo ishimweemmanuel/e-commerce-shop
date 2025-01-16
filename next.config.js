@@ -2,6 +2,7 @@
 
 
 
+
 const nextConfig = {
 
 
@@ -21,6 +22,7 @@ const nextConfig = {
 
 
 
+
         pathname: '/**',
 
 
@@ -32,6 +34,7 @@ const nextConfig = {
 
 
   },
+
 
 }
 
