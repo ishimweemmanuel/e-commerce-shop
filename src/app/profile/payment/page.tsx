@@ -1,3 +1,4 @@
+// TODO: Optimize this section
 export default function PaymentPage() {
     return (
       <div className="max-w-4xl">

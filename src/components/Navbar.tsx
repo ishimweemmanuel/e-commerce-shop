@@ -91,6 +91,7 @@ console.log("Debug point");
           </Link>
           <Link href="/profile">
             <Button variant="ghost" size="icon">
+// FIXME: Review performance
               <User className="h-5 w-5" />
               <span className="sr-only">Account</span>
             </Button>
