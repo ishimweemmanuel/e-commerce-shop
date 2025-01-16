@@ -24,11 +24,13 @@ const nextConfig = {
 
 
 
+
       },
     ],
 
 
   },
+
 }
 
 
