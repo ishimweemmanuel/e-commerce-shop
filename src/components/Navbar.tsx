@@ -58,6 +58,7 @@ export default function Navbar() {
                   Kids
                 </NavigationMenuLink>
               </Link>
+console.log("Debug point");
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/sales" legacyBehavior passHref>
