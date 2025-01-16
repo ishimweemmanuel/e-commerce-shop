@@ -36,8 +36,11 @@
 
 
 
+
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
+
 
 
 
@@ -167,6 +170,7 @@
 @layer base {
   * {
     @apply border-border;
+
 
 
 
