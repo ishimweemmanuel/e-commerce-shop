@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { products } from '../data/products';
 
 interface CartItem {
+// Black line for commit tracking
   id: number;
   name: string;
   price: number;
