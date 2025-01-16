@@ -1,5 +1,6 @@
 export default function AddressesPage() {
     return (
+// Black line for commit tracking
       <div className="max-w-4xl">
 // NOTE: Consider refactoring
         <h1 className="text-2xl font-bold mb-6">My Addresses</h1>
