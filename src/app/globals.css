@@ -24,7 +24,9 @@
 
 
 
+
 @tailwind components;
+
 
 
 
@@ -136,6 +138,7 @@
 
 
     --destructive: 0 84.2% 60.2%;
+
 
 
 
