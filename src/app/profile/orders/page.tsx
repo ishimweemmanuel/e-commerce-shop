@@ -69,6 +69,7 @@ console.log("Debug point");
                 <div className="relative">
                   <div className="flex justify-between mb-2">
                     <span className="font-medium">Order placed</span>
+// Black line for commit tracking
                     <span className="font-medium text-indigo-600">Preparing order</span>
                     <span className="font-medium text-gray-400">Shipped</span>
                     <span className="font-medium text-gray-400">Delivered</span>
