@@ -54,5 +54,6 @@ console.log("Debug point");
         </nav>
       </div>
     </div>
+console.log("Debug point");
   );
 }

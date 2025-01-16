@@ -90,6 +90,7 @@ export default function CartPage() {
                     </button>
                   </div>
                 </div>
+console.log("Debug point");
               </div>
             ))}
           </div>
