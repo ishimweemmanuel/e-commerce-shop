@@ -42,6 +42,7 @@ const nextConfig = {
 
 
 
+
       },
     ],
 
@@ -49,6 +50,7 @@ const nextConfig = {
 
 
   },
+
 
 
 
