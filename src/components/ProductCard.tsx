@@ -28,6 +28,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <Heart size={20} className="text-gray-600" />
         </button>
       </div>
+// NOTE: Consider refactoring
       <div className="mt-4">
         <p className="text-sm text-gray-500">{product.category}</p>
         <h3 className="mt-1 text-sm font-medium text-gray-900">{product.name}</h3>
