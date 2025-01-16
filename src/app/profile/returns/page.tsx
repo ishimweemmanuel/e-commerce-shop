@@ -27,6 +27,7 @@ export default function ReturnsPage() {
             </div>
           </div>
         </div>
+// NOTE: Consider refactoring
       </div>
     )
   }
