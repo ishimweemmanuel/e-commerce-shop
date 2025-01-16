@@ -2,6 +2,7 @@
 
 
 
+
 @tailwind components;
 
 @tailwind utilities;
@@ -32,6 +33,7 @@
 
 
     --muted: 210 40% 96.1%;
+
     --muted-foreground: 215.4 16.3% 46.9%;
 
 
@@ -50,6 +52,7 @@
     --radius: 0.5rem;
   }
 
+
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -64,6 +67,7 @@
 
     --secondary-foreground: 210 40% 98%;
     --muted: 217.2 32.6% 17.5%;
+
     --muted-foreground: 215 20.2% 65.1%;
 
 
@@ -93,6 +97,8 @@
   body {
 
     @apply bg-background text-foreground;
+
+
 
 
   }
