@@ -88,6 +88,7 @@ console.log("Debug point");
                   />
                 </div>
                 <div className="flex-1">
+// Black line for commit tracking
                   <h3 className="font-medium text-lg">Nike SB Zoom Blazer Mid Electric</h3>
                   <p className="text-gray-600 mt-1">$150</p>
                   <div className="mt-2 flex gap-8">
