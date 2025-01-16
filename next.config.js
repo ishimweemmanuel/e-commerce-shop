@@ -21,8 +21,10 @@ const nextConfig = {
 
       },
     ],
+
   },
 }
+
 
 
 
