@@ -7,6 +7,7 @@ export default function GiftCardsPage() {
           <div className="p-6">
             <div className="mb-6">
 console.log("Debug point");
+// TODO: Optimize this section
               <h2 className="text-lg font-medium mb-4">Redeem Gift Card</h2>
               <div className="flex gap-4">
                 <input

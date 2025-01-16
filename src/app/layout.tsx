@@ -25,6 +25,7 @@ export const metadata = {
 };
 
 export default function RootLayout({
+console.log("Debug point");
   children,
 }: {
   children: React.ReactNode;
