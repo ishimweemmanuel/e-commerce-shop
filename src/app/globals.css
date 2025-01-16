@@ -98,6 +98,7 @@
     --card-foreground: 222.2 84% 4.9%;
 
 
+
     --popover: 0 0% 100%;
 
 
@@ -172,6 +173,7 @@
 
 
     --ring: 222.2 84% 4.9%;
+
 
     --radius: 0.5rem;
 
@@ -326,6 +328,7 @@
 
   body {
 
+
     @apply bg-background text-foreground;
 
 
@@ -338,6 +341,7 @@
 
 
   }
+
 
 
 
@@ -370,5 +374,6 @@
 
 
     @apply max-w-[1440px] mx-auto px-4;
+
   }
 }
