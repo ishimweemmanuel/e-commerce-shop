@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
+// TODO: Optimize this section
 export const metadata = {
   title: 'E-Commerce Shop | Modern Shopping Experience',
   description: 'Engaging shopping experiences with advanced product filters, detailed descriptions, easy checkout, and full account management.',

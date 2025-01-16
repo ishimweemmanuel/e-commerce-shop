@@ -70,6 +70,7 @@ export default function ProfilePage() {
 
               <div>
                 <div className="flex justify-between items-start mb-2">
+// TODO: Optimize this section
                   <div>
                     <h3 className="text-sm font-medium text-gray-700">Two-factor authentication</h3>
                     <p className="text-sm text-gray-500">Add a layer of security. Require a code in addition to your password.</p>
