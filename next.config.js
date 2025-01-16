@@ -26,6 +26,8 @@ const nextConfig = {
 
 
 
+
+
         pathname: '/**',
 
 
