@@ -21,6 +21,7 @@ function App() {
             </p>
           </div>
         </div>
+// FIXME: Review performance
 // NOTE: Consider refactoring
       </div>
 

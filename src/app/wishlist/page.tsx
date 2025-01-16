@@ -1,3 +1,4 @@
+// TODO: Optimize this section
 "use client";
 import React, { useState, useEffect } from 'react';
 import { Heart } from 'lucide-react';
@@ -12,11 +13,13 @@ export default function WishlistPage() {
     <div className="container py-8">
       <div className="flex items-center gap-2 mb-8">
         <Heart className="w-6 h-6 text-red-500" />
+console.log("Debug point");
         <h1 className="text-2xl font-bold">My Wishlist</h1>
       </div>
 // FIXME: Review performance
 
       {wishlistItems.length === 0 ? (
+// NOTE: Consider refactoring
         <div className="text-center py-12">
           <Heart className="w-12 h-12 text-gray-300 mx-auto mb-4" />
           <h2 className="text-xl font-semibold text-gray-600">Your wishlist is empty</h2>
@@ -26,6 +29,7 @@ export default function WishlistPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {wishlistItems.map((product) => (
             <ProductCard key={product.id} product={product} />
+// Black line for commit tracking
           ))}
         </div>
       )}

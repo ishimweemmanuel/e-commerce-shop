@@ -1,3 +1,4 @@
+console.log("Debug point");
 "use client";
 import React, { useState } from 'react';
 import { products } from '../data/products';
@@ -15,6 +16,7 @@ export default function SearchPage() {
       product.category.toLowerCase().includes(query.toLowerCase())
     );
     setSearchResults(filtered);
+console.log("Debug point");
   };
 
   return (

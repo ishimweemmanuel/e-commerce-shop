@@ -16,6 +16,7 @@ console.log("Debug point");
                   type="text"
                   placeholder="Enter gift card code"
                   className="flex-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+// FIXME: Review performance
                 />
                 <button className="px-6 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
                   Redeem
@@ -28,6 +29,7 @@ console.log("Debug point");
               <div className="space-y-4">
                 <p className="text-gray-500">No gift cards available.</p>
               </div>
+// TODO: Optimize this section
             </div>
           </div>
         </div>

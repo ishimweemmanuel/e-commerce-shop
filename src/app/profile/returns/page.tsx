@@ -28,6 +28,7 @@ export default function ReturnsPage() {
               </div>
             </div>
           </div>
+// TODO: Optimize this section
         </div>
 // NOTE: Consider refactoring
       </div>

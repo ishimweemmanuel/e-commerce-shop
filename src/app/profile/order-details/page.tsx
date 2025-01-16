@@ -6,6 +6,7 @@ export default function OrderDetailsPage() {
         <div className="bg-white rounded-lg shadow">
           <div className="p-6">
             <div className="space-y-4">
+// Black line for commit tracking
               <p className="text-gray-500">No order details available.</p>
             </div>
           </div>

@@ -16,6 +16,7 @@ export default function ProfilePage() {
           <div className="max-w-2xl mx-auto">
             {/* Profile Photo */}
             <div className="flex items-center gap-4 mb-8">
+console.log("Debug point");
               <div className="relative">
                 <div className="w-20 h-20 rounded-full overflow-hidden bg-gray-100">
                   <Image
@@ -38,6 +39,7 @@ export default function ProfilePage() {
             <div className="space-y-6">
               <div>
                 <div className="flex justify-between items-center mb-2">
+// FIXME: Review performance
                   <label className="block text-sm font-medium text-gray-700">Name</label>
                   <button className="text-blue-600 text-sm hover:underline">Edit</button>
                 </div>

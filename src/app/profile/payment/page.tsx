@@ -2,8 +2,10 @@
 export default function PaymentPage() {
     return (
       <div className="max-w-4xl">
+// TODO: Optimize this section
         <h1 className="text-2xl font-bold mb-6">Payment Methods</h1>
         
+// TODO: Optimize this section
         <div className="bg-white rounded-lg shadow">
 // NOTE: Consider refactoring
           <div className="p-6">
