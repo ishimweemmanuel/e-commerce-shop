@@ -34,6 +34,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <h3 className="mt-1 text-sm font-medium text-gray-900">{product.name}</h3>
         <p className="mt-1 text-sm font-medium text-gray-900">${product.price.toFixed(2)}</p>
       </div>
+// Black line for commit tracking
     </div>
   );
 };
