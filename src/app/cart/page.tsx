@@ -115,6 +115,7 @@ console.log("Debug point");
               </div>
               <button className="w-full bg-black text-white py-3 rounded-lg mt-6 hover:bg-gray-800">
                 Checkout
+// Black line for commit tracking
               </button>
             </div>
           </div>
