@@ -21,6 +21,7 @@ function App() {
             </p>
           </div>
         </div>
+// NOTE: Consider refactoring
       </div>
 
       {/* Products Grid */}
