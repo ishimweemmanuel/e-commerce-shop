@@ -8,9 +8,11 @@ const nextConfig = {
         hostname: 'images.unsplash.com',
         port: '',
         pathname: '/**',
+
       },
     ],
   },
 }
+
 
 module.exports = nextConfig
