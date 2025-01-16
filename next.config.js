@@ -3,11 +3,13 @@
 
 
 
+
 const nextConfig = {
 
 
 
   images: {
+
 
 
     remotePatterns: [
@@ -43,6 +45,7 @@ const nextConfig = {
 
 
 }
+
 
 
 
