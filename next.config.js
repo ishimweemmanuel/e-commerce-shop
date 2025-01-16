@@ -6,6 +6,7 @@
 const nextConfig = {
 
 
+
   images: {
 
 
@@ -36,6 +37,7 @@ const nextConfig = {
 
 
   },
+
 
 
 }
