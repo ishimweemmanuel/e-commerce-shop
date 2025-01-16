@@ -3,6 +3,7 @@ export const products = [
       id: 1,
       name: "Classic White Sneakers",
       price: 89.99,
+// FIXME: Review performance
       category: "Footwear",
       image: "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
 // NOTE: Consider refactoring

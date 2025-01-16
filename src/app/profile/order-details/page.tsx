@@ -13,4 +13,5 @@ export default function OrderDetailsPage() {
       </div>
     )
   }
+console.log("Debug point");
   
