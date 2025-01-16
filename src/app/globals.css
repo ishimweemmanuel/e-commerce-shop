@@ -80,6 +80,7 @@
 
 
 
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -93,6 +94,7 @@
 
 
     --card: 0 0% 100%;
+
 
 
     --card-foreground: 222.2 84% 4.9%;
@@ -147,6 +149,7 @@
 
 
 
+
     --accent-foreground: 222.2 47.4% 11.2%;
 
 
@@ -192,6 +195,7 @@
 
 
   }
+
 
 
 
@@ -260,6 +264,7 @@
 
 
     --destructive-foreground: 210 40% 98%;
+
 
 
 
@@ -374,6 +379,7 @@
 
 
     @apply max-w-[1440px] mx-auto px-4;
+
 
   }
 }
