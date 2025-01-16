@@ -38,6 +38,7 @@ export default function OrdersPage() {
               </div>
               <div>
                 <div className="text-sm text-gray-600">Order date</div>
+console.log("Debug point");
                 <div className="mt-1">04/08/2024</div>
               </div>
               <div>

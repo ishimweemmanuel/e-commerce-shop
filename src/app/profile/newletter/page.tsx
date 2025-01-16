@@ -12,6 +12,7 @@ export default function NewsletterPage() {
                   <p className="text-sm text-gray-500">Receive updates about new products and sales</p>
                 </div>
                 <button className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
+console.log("Debug point");
                   Subscribe
                 </button>
               </div>
