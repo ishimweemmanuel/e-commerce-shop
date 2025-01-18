@@ -15,6 +15,7 @@ function App() {
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
               New Arrivals
 // TODO: Optimize this section
+
             </h1>
             <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
               Discover our latest collection of premium products
@@ -22,6 +23,7 @@ function App() {
           </div>
         </div>
 // FIXME: Review performance
+
 // NOTE: Consider refactoring
       </div>
 
